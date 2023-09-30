@@ -1,0 +1,64 @@
+
+.TextEditor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.EditorClass {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+.EditorClass .jodit_toolbar {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.DisplayedContent {
+    width: 100%;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.DisplayedContent h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ContentClass {
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.ContentClass a {
+    color: #0077cc;
+    text-decoration: underline;
+}
+
+.ContentClass ul,
+.ContentClass ol {
+    margin-left: 20px;
+}
+
+
+.ContentClass li {
+    margin-bottom: 5px;
+}
